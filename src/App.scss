@@ -1,0 +1,12 @@
+html body {
+  background-color: aliceblue;
+}
+
+.app {
+  &__header {
+    text-align: center;
+    &__logo {
+      margin: 1rem 0;
+    }
+  }
+}
