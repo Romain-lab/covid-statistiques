@@ -1,5 +1,6 @@
-import logo from './logo.png';
-import './App.scss';
+import logo from './logo.png'
+import './App.scss'
+import GlobalStats from "./GlobalStats"
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <div className="app__header">
         <img src={logo} className="app__header__logo" alt="logo"/>
       </div>
+    <GlobalStats />
     </div>
   );
 }
